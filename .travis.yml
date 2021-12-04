@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - lts/*
+  - "14.15.5"
 install:
-  - npm ci
+  - npm i
 script:
   - npm run build
 deploy:
