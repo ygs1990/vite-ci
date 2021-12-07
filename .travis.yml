@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "14.15.5"
 before_script:
-install:
-  - npm install
+  install:
+    - npm install
 script:
   - npm run build
 #deploy:
